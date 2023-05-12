@@ -10,29 +10,31 @@ This is an Image Recognition App built with Flask and TensorFlow. The app allows
    
    Navigate to the project directory:
 
-bash
-Copy code
-cd image-recognition-app
-Install the required dependencies:
+   Copy code
+   cd image-recognition-app
+   Install the required dependencies:
+   ```
 
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-Start the Flask development server:
+   ```bash
+   Copy code
+   pip install -r requirements.txt
+   Usage
+   Start the Flask development server:
+   ```
 
-bash
-Copy code
-python app.py
-Open your web browser and visit http://localhost:5000.
+   ```bash
+   Copy code
+   python app.py
+   Open your web browser and visit http://localhost:5000.
+   ```
 
-Upload an image using the provided form.
+## Upload an image using the provided form.
 
-Click the "Recognize Image" button.
+## Click the "Recognize Image" button.
 
 The app will process the image and display the recognized objects along with their probabilities.
 
-Technologies Used
+## Technologies Used
 Flask
 TensorFlow
 OpenCV
@@ -41,10 +43,10 @@ CSS
 License
 This project is licensed under the MIT License.
 
-Contributing
+## Contributing
 Contributions are welcome! Fork the repository and submit a pull request.
 
-Credits
+# Credits
 The MobileNetV2 model is from the TensorFlow Keras library.
 The CSS styling is inspired by Animate.css library.
 Contact
